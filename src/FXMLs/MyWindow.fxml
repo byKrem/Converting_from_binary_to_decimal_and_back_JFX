@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Classes.MyWindow">
+   <children>
+      <AnchorPane prefHeight="406.0" prefWidth="600.0" style="-fx-background-color: faebd7;">
+         <children>
+            <Label alignment="CENTER" layoutX="65.0" layoutY="20.0" text="2:" AnchorPane.bottomAnchor="170.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="20.0" />
+            <Label alignment="CENTER" layoutX="62.0" layoutY="106.0" text="10:" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="100.0" />
+            <Button fx:id="btn_start" onAction="#Start" layoutX="147.0" layoutY="187.0" mnemonicParsing="false" text="Начать" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="190.0" />
+            <TextField fx:id="textBox_Binary" layoutX="109.0" layoutY="20.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0" />
+            <TextField fx:id="textBox_Decimal" layoutX="109.0" layoutY="107.0" prefHeight="71.0" prefWidth="319.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="100.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
